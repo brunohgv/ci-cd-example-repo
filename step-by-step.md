@@ -17,3 +17,15 @@ You will be redirected to the Home page
 
 # Creating a job
 
+In the Jenkins Home Page click in `Create a Job`
+
+Select Freestyle Project to have custom configurations.
+
+In this page, select `git` in `Source Code Management` section and add the name of the target repository and the branches that may be evaluated.
+
+Save this configuration.
+
+Then you can access the job page and check if the Jenkins is getting the repository successfully by clicking in the `Build Now` button.
+
+![Jenkins Build](./screenshots/jenkins-build-page.png)
+
