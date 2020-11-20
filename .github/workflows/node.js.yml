@@ -24,5 +24,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm test
+    - run: yarn install
+    - run: yarn test --no-color 2>test_result.txt
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-output
+        path: test_result.txt
