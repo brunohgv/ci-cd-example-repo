@@ -1,3 +1,9 @@
+/**
+ * Sums two numbers
+ *
+ * @param {number} a first number
+ * @param {number} b secund number
+ */
 function sum(a, b) {
     return a + b;
 };
