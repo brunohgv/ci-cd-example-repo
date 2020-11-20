@@ -1,0 +1,22 @@
+PASS src/index.test.js
+  sum tests
+    ✓ 1 + 2 equal 3 (2 ms)
+    ✓ 1 + -1 equal 0
+  subtract tests
+    ✓ 1 - 2 equal -1 (1 ms)
+    ✓ 1 - -1 equal 2
+  multiply tests
+    ✓ 1 * 2 equal 2 (4 ms)
+    ✓ 5 * -5 equal -25
+  divide tests
+    ✓ 5 / -5 equal -1 (1 ms)
+    ✓ 5 / 0 equal Infinity
+    ✓ -5 / 0 equal -Infinity
+    ✓ 5 / 2 equal 2.5
+    ✓ 10 / -2 equal -5
+
+Test Suites: 1 passed, 1 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        1.422 s
+Ran all test suites matching /src\//i.
